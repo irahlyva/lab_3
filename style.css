@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f6f2f2;
+}
+li{
+    list-style: none;
+}
+nav {
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 30px;
+    background-color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    height: 90px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav li{
+    padding-top: 34px; 
+    padding-bottom: 34px;
+    padding-right: 6px;
+    padding-left: 6px;
+    display: inline-block;
+    vertical-align:middle;
+}
+nav a:link{
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+nav a:hover{
+    background: #ff3f40;
+}
+main {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #6f6d6d;
+    margin-top: 10px;
+}
+main .left{
+    float: left;
+    width: 39%;
+    margin-left: 11%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+main .right{
+    float: right; 
+    margin-right: 11%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+button {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff3f40;
+    height: 63px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+footer {
+    padding-left: 11%;
+    background-color: #313030;
+    height: 100px;
+}
+
+.copyright {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+video {
+    height: 330px;
+    width: 500px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+main .services {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+hr {
+    margin-left: 11%;
+    margin-top: 3px;
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #737373;
+}
+.feature {
+    width: 220px;
+    display: block;
+    float: left;
+    padding: 20px;
+    
+}
+#features {
+    width: 39%;
+    float: right;
+    margin-right: 11%;
+}
+
+.icons {
+    border-radius: 50%
+}
+
+.main {
+     background-color: #ffffff;
+}
+
+figure {
+    float: left;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+#email {
+    height: 450px;
+    width: 100%;   
+}
+
+#img {
+    background-image: url("media/digital.png");
+    height: 450px;
+    width: 100%; 
+    background-size: cover; 
+    opacity: 0.2;
+    position: absolute;
+}
+
+
