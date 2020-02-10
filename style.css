@@ -93,13 +93,6 @@ footer {
     line-height: 100px;
     vertical-align: middle;
 }
-
-video {
-    height: 330px;
-    width: 500px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.7);
-}
-
 main .services {
     background-color: #ffffff;
     text-align: center;
